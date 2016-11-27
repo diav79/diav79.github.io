@@ -1,0 +1,23 @@
+- name: 'C++'
+  i18n: 'C++'
+  img: 'static/img/logo/c-logo.png'
+
+- name: 'Python'
+  i18n: 'Python'
+  img: 'static/img/logo/python.png'
+
+- name: 'Caffe'
+  i18n: 'Caffe'
+  img: 'static/img/logo/caffe.jpg'
+
+- name: 'ROS'
+  i18n: 'ROS'
+  img: 'static/img/logo/ros.png'
+
+- name: 'Keras'
+  i18n: 'Keras'
+  img: 'static/img/logo/keras.jpg'
+
+- name: 'OpenCV'
+  i18n: 'OpenCV'
+  img: 'static/img/logo/opencv.png'

@@ -1,0 +1,27 @@
+- name:
+    detail: RRC, IIIT Hyderabad
+    i18n: iiit
+  desc:
+    detail: MS - CSE student.
+    i18n: iiit_des
+  date:
+    detail: August 2016
+    i18n: iiit_date
+  job:
+    detail: Research Assistant
+    i18n: iiit_job
+  icon: fa-plus-square
+
+- name:
+    detail: LDCE
+    i18n: college
+  desc:
+    detail: BE in CE.
+    i18n: college_des
+  date:
+    detail: July 2015
+    i18n: college_date
+  job:
+    detail: Student
+    i18n: college_job
+  icon: fa-book
