@@ -1,7 +1,7 @@
 - name: 'global tagging and mapping'
   i18n: 'global tagging and mapping'
   img: 'static/img/landing/project3.png'
-  desc: "In this project, the distance between monocular quadcopter and the object of interest is calculated. Using that and quad's ego position, the objects are tagged with GPS Lat/Long. After some interval the task of tagging is performed again and the objects are associated in different runs to find changes in environment. An implementation for detecting, tagging, and associating trees is carried out. Relevant resources will be published soon."
+  desc: 'In this project, the distance between monocular quadcopter and the object of interest is calculated. Using that and quad\'s ego position, the objects are tagged with GPS Lat/Long. After some interval the task of tagging is performed again and the objects are associated in different runs to find changes in environment. An implementation for detecting, tagging, and associating trees is carried out. Relevant resources will be published soon.'
 
 - name: 'deep fly'
   i18n: 'deep fly'

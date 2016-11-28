@@ -5,7 +5,7 @@
     detail: MS - CSE student.
     i18n: iiit_des
   date:
-    detail: August 2016
+    detail: August 2015
     i18n: iiit_date
   job:
     detail: Research Assistant
@@ -14,14 +14,14 @@
 
 - name:
     detail: LDCE
-    i18n: college
+    i18n: ldce
   desc:
     detail: BE in CE.
-    i18n: college_des
+    i18n: ldce_des
   date:
-    detail: July 2015
-    i18n: college_date
+    detail: July 2011-15
+    i18n: ldce_date
   job:
     detail: Student
-    i18n: college_job
+    i18n: ldce_job
   icon: fa-book

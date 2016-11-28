@@ -5,7 +5,7 @@
     detail: MS - CSE student.
     i18n: iiit_des
   date:
-    detail: August 2016
+    detail: August 2015-Present
     i18n: iiit_date
   job:
     detail: Research Assistant
@@ -19,7 +19,7 @@
     detail: BE in CE.
     i18n: ldce_des
   date:
-    detail: July 2015
+    detail: July 2011-15
     i18n: ldce_date
   job:
     detail: Student
