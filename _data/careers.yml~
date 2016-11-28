@@ -1,11 +1,11 @@
 - name:
-    detail: RRC, IIIT Hyderabad
+    detail: <a href="http://robotics.iiit.ac.in/" target="blank">RRC , IIIT Hyderabad</a>
     i18n: iiit
   desc:
     detail: MS - CSE student.
     i18n: iiit_des
   date:
-    detail: August 2015
+    detail: August 2015-Present
     i18n: iiit_date
   job:
     detail: Research Assistant
