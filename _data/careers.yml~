@@ -1,14 +1,14 @@
 - name:
-    detail: <a href="http://robotics.iiit.ac.in/" target="blank">RRC , IIIT Hyderabad</a>
+    detail: IIIT Hyderabad
     i18n: iiit
   desc:
-    detail: MS - CSE student.
+    detail: <p style="color:rgb(124,124,124)">Master of Science in Computer Science and Engineering by Research. Affiliated with <a href="http://robotics.iiit.ac.in/" target="blank"><span class="navy" style="color:rgb(237, 85, 101)">Robotics Research Center</a></span>.</p>
     i18n: iiit_des
   date:
-    detail: August 2015-Present
+    detail: July 2015-Present
     i18n: iiit_date
   job:
-    detail: Research Assistant
+    detail: Student, Research Assistant
     i18n: iiit_job
   icon: fa-plus-square
 
@@ -16,7 +16,7 @@
     detail: LDCE
     i18n: ldce
   desc:
-    detail: BE in CE.
+    detail: <p style="color:rgb(124,124,124)">Bachelor of Engineering in Computer Engineering. Learned a range of subjects from Data Structures to Artificial Intelligence.</p>
     i18n: ldce_des
   date:
     detail: July 2011-15

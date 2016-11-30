@@ -6711,13 +6711,13 @@ body.landing-page {
   width: 100%;
 }
 .landing-page .header-back.one {
-  background: url('../img/landing/header_one.png') 50% 0 no-repeat;
+  background: url('../img/landing/header_one.png') 33% 0 no-repeat;
 }
 .landing-page .header-back.two {
-  background: url('../img/landing/header_two.png') 50% 0 no-repeat;
+  background: url('../img/landing/header_two.png') 33% 0 no-repeat;
 }
 .landing-page .header-back.three {
-  background: url('../img/landing/header_three.JPG') 50% 0 no-repeat;
+  background: url('../img/landing/header_three.JPG') 33% 0 no-repeat;
 }
 .landing-page .carousel {
   height: 470px;
