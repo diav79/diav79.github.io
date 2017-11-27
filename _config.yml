@@ -1,107 +1,51 @@
-# Welcome to Jekyll!
+logo: # add logo name
+title: Utsav Shah
+description: > # this means to ignore newlines until "baseurl:"
+  Utsav Shah. Personal Website.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://diav79.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Website settings
-title: "Utsav Shah"
-description: "In Love with Intelligence"
-keywords: "Utsav,Shah,DeepLearning,MAV,MachineLearning,Robotics,IIIT"
-baseurl: "/"
-url: "http://diav79.github.io"
-# url: "http://127.0.0.1:4000"
+# Banner settings
+video: untitled.mp4 # add banner video. Add your video file to the folder video
+banner-title: # add banner title
+banner-desc: # add banner description
 
-# author
-author:
-  name: 'Utsav'
-  first_name: 'Utsav'
-  last_name: 'Shah'
-  email: 'utsavdshah@gmail.com'
-  facebook_username: 'utsavdshah'
-  github_username: 'diav79'
-  head_img: 'static/img/landing/UtsavShah.jpg'
-  desc: 'Currently a student (and forever too). Learning new things. Expanding horizons... Area of Interest: Machine Learning, Computer Vision, Convex Optimization, Artificial General Intelligence. In Love with Intelligence!'
+# Author settings
+author-pic: face.jpg # your photo
+author-name: # your name
+about-author: # about author
+email: your-email@domain.com # your email
+phone: (496)-169-6557 # your pnone number
+website: https://dwayne.example.com # you website
 
-# sections
-sections:
-  - id: 'about-me'
-    i18n: 'nav.about_me'
-    name: 'About'
-    tpl: 'about.html'
-    css: ''
+# Social link
+youtube_url: https://www.youtube.com/channel/UCOQ7GAmrahh1wKn5A9YEbww    # add url link
+twitter_url: https://twitter.com/UtsavDShah  # add url link 
+instagram_url: https://www.instagram.com/utsavdshah/ # add url link
+pinterest_url: # add url link
+dribbble_url:  # add url link
+facebook_url: https://www.facebook.com/utsavdshah # add url link
+linkedin_url: https://www.linkedin.com/in/utsavdshah/
 
-  - id: 'projects'
-    i18n: 'nav.projects'
-    name: 'Projects'
-    tpl: 'projects.html'
-    css: 'project'
+# Disqus
+# discus_identifier: mr-brown # add your discus identifier
 
-  - id: 'career'
-    i18n: 'nav.career'
-    name: 'Career'
-    tpl: 'career.html'
-    css: 'timeline'
+# Newsletter
+# mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
-  - id: 'skills'
-    i18n: 'nav.skills'
-    name: 'Skills'
-    tpl: 'skills.html'
-    css: 'team'
+# Tracker
+analytics:
 
-  - id: 'blog'
-    i18n: 'nav.blog'
-    name: 'Blog'
-    tpl: 'blog.html'
-    css: 'testimonials navy-section'
-
-  - id: 'links'
-    i18n: 'nav.lnk'
-    name: 'Contact'
-    tpl: 'links.html'
-    css: 'contact'
-
-# localization
-#languages:
-#  - locale: 'en'
-#    flag: 'static/img/flags/United-States.png'
-#  - locale: 'zh'
-#    flag: 'static/img/flags/China.png'
-
-# blog img path
-#img_path: 'http://www.jack003.com/static/img/blog'
-
-# donate
-#donate:
-#  wechat: 'static/img/pay/wechat.png'
-#  alipay: 'static/img/pay/alipay.png'
-
-# comment
-#changyan:
-  # appid: cysfY7ULn
-  # conf: prod_861928934cecb7a18e15bedaed9dae29
-#disqus:
-  #name: jalpc
-  #public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
-
-# share
-#bshare:
-  #uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
-
-# baidu analytics
-#ba:
-  # uuid: 317acca9ef9255b934e46371e471431d
-
-# google analytics
-#ga:
-  #id: UA-73784599-1
-
-# growingIO
-#gio:
-  #id: a49d4901c7853da9
+# Paginate
+paginate: 12
+paginate_path: /page:num/
 
 # Build settings
-encoding: "utf-8"
-
-# other settings
-highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
