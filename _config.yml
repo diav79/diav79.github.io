@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://diav79.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
-video: untitled.mp4 # add banner video. Add your video file to the folder video
+video: banner_.mp4 # add banner video. Add your video file to the folder video
 banner-title: # add banner title
 banner-desc: # add banner description
 
